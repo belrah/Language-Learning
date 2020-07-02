@@ -109,10 +109,10 @@ background: url(images/Rectangle10.png) no-repeat {
 }
 .bg-img2 {
 
-min-height: 100vh;
+  min-height: 100vh;
   background: url(../images/Group14.png) no-repeat;
-  background-size: cover;
-  height: 959px;
+  background-size: contain;
+  height: 659px;
   width: 100%;
   /* background-size:100% 359px; */
   
@@ -122,7 +122,6 @@ min-height: 100vh;
   min-height: 60vh;
   background: url(../images/Rectangle10.png) no-repeat;
   background-size: cover;
-
 }
 .h1 {
   padding-top: 5rem;
