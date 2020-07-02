@@ -26,12 +26,8 @@ nav img {
 a:link {
   color: white;
 }
-.sign-up {
-  border-radius: 5px;
-}
 
 h1 h2 h3 {
-  font-style: "Lora", serif;
   text-shadow: black;
 }
 .padding {
@@ -47,7 +43,6 @@ h1 h2 h3 {
   margin: 0 auto;
   padding-top: 2rem;
 }
-
 .container-fluid5 {
   min-height: 100vh;
   background-image: url(\images\Group\ 14.png);
@@ -61,49 +56,13 @@ h1 h2 h3 {
 }
 
 hr {
-  border-top: 0.5px solid #fd954e;
-  width: 50%;
+  border-top: 1px solid white;
+  width: 30%;
   text-align: center;
-
+  margin-top: 0rem;
   margin: 0.2rem auto 0.9rem auto;
 }
-.col-btn {
-  max-width: 50%;
-}
-.icon-btn {
-  display: flex;
-  height: 54px;
-  padding: 5px 10px;
-  /* flex-wrap: wrap; */
-}
-.icon-btnGP {
-  background-color: black;
-  color: white;
-  height: 100%;
-}
-.icon-btnAS {
-  background-color: whitesmoke;
-  border: none;
-  height: 100%;
-}
-.icon-text {
-  display: inline;
-  align-items: flex-start;
-  margin: 3px 0;
-}
 
-.app-icon {
-  max-width: 50px;
-  margin: 3px 0;
-}
-.app-iconAS {
-  width: 80px;
-}
-
-.cenpos {
-  display: block;
-  width: 100%;
-}
 /*
 .section1{
   background: url(images/Rectangle10.png) no-repeat;
@@ -167,7 +126,15 @@ hr {
   transform: rotate(-70deg);
   content: "";
 } */
-
+.col-lg-6{
+  color: white;
+  text-align: center;
+  padding-top: 0rem;
+  background-color: #595BC3;
+}
+.h1{
+  padding-top: 5rem;
+}
 footer {
   background-color: #595BC3;
   color: white;
