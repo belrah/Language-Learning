@@ -13,8 +13,8 @@ html.body {
 }
 .navbar {
   padding: 0.8rem;
- color: white;
- background-color: #595BC3;
+  color: white;
+  background-color: #595bc3;
 }
 
 nav img {
@@ -32,6 +32,7 @@ h1 h2 h3 {
 }
 .padding {
   padding-bottom: 0rem;
+  margin: 0 auto;
 }
 .container-fluid1 {
   width: 75%;
@@ -45,7 +46,7 @@ h1 h2 h3 {
 }
 .container-fluid5 {
   min-height: 100vh;
-  background-image: url(\images\Group\ 14.png);
+  background-image: url(\images\group\14png);
   background-size: cover;
   /* background-color: black; */
 }
@@ -63,92 +64,81 @@ hr {
   margin: 0.2rem auto 0.9rem auto;
 }
 
-/*
-.section1{
+
+
+/* .section1{
   background: url(images/Rectangle10.png) no-repeat;
   background-position: center;
   background-size: cover;
   height: 100vh;
-  transition: all .5s;
-}
-*/
-/* .app-icon {
-  float: right;
-
+  transition: all 0.5s;
 } */
-
-.textbox {
+/* 
+background: url(images/Rectangle10.png) no-repeat {
   background-color: #e6e4ff;
   padding: 5px 5px;
   margin-top: 1rem;
-}
+} */
 .card {
   border: none;
   margin-bottom: 1rem;
 }
-/* 
-.star-five {
-  margin: 50px 0;
-  position: relative;
-  display: block;
-  color: red;
-  width: 0px;
-  height: 0px;
-  border-right: 100px solid transparent;
-  border-bottom: 70px solid red;
-  border-left: 100px solid transparent;
-  transform: rotate(35deg);
+  
+
+.full-card:not(:last-child) {
+  margin-right: 5rem;
 }
-.star-five:before {
-  border-bottom: 80px solid red;
-  border-left: 30px solid transparent;
-  border-right: 30px solid transparent;
-  position: absolute;
-  height: 0;
-  width: 0;
-  top: -45px;
-  left: -65px;
-  display: block;
-  content: "";
-  transform: rotate(-35deg);
+
+.bg-img1 {
+  min-height: 80vh;
+  background: url(../images/Group15.png) no-repeat;
+  background-size: 1779px 700px;
 }
-.star-five:after {
-  position: absolute;
-  display: block;
-  color: red;
-  top: 3px;
-  left: -105px;
-  width: 0px;
-  height: 0px;
-  border-right: 100px solid transparent;
-  border-bottom: 70px solid red;
-  border-left: 100px solid transparent;
-  transform: rotate(-70deg);
-  content: "";
-} */
-.side1{
-  color: white;
-  text-align: center;
-  padding-top: 0rem;
-  background-color: #595BC3;
-}
-.h1{
-  padding-top: 5rem;
-}
-footer {
-  background-color: #595BC3;
-  color: white;
-  padding-top: 2rem;
+.bg-img2 {
+
+min-height: 100vh;
+  background: url(../images/Group14.png) no-repeat;
+  background-size: cover;
+  height: 959px;
+  width: 100%;
+  /* background-size:100% 359px; */
   
 }
 
-/*---- media queries---*/
+.bg-img3 {
+  min-height: 60vh;
+  background: url(../images/Rectangle10.png) no-repeat;
+  background-size: cover;
 
-@media (max-width: 992px) {
-  .display-none {
+}
+
+
+  
+.h1 {
+  padding-top: 5rem;
+}
+footer {
+  background-color: #595bc3;
+  color: white;
+  padding-top: 2rem;
+}
+
+.blue{
+  background-color: #595bc3;
+  color: white;
+}
+@media (max-width: 576px){
+  .bg-img1 {
+    
+    background: url(../images/Group15.png) no-repeat;
+    background-size: cover;
+  }
+  .display-none{
     display: none;
   }
 }
+
+
 
 /*
 @media (max-width: 992px){ 
@@ -163,7 +153,7 @@ footer {
     }
 }
 
-@media (max-width: 576px){
+@
     footer{
         width: 100%;
     }
@@ -178,9 +168,4 @@ small (sm) devices (landscape phones, 576px and up)
 Medium (md) devices (tablets, 768px and up)
 @media (min-width: 768px){}
 
-Large (lg) devices (desktopss, 992px and up)
-@media (min-width: 992px){}
-
-Extra (xl)  large devices (Large Desktops, 1200px and up)
-@media (min-width: 1200px){}
-*/
+L
